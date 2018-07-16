@@ -8,3 +8,8 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka/
       
+# database config
+username: 
+    name: adminuser
+password:
+    pass: {cipher}76d91b354bf70d0b449828f68b93ec2c5b5d09e74cdb67e6aacfa6e1d38658e5
