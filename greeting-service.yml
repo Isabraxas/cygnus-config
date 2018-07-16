@@ -1,13 +1,9 @@
 # HTTP Server
-server:
-      port: ${PORT:3335}   # HTTP port
+server.port= ${PORT:3335}   # HTTP port
 
 # Discovery Server Access
-eureka:
-      client:
-            serviceUrl:
-                  defaultZone: http://localhost:1111/eureka/
+eureka.client.serviceUrl.defaultZone= http://localhost:1111/eureka/
       
 # database config
-username: adminuser
+username= adminuser
 #password: {cipher}76d91b354bf70d0b449828f68b93ec2c5b5d09e74cdb67e6aacfa6e1d38658e5
