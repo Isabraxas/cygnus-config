@@ -9,7 +9,5 @@ eureka:
       defaultZone: http://localhost:1111/eureka/
       
 # database config
-username: 
-    name: adminuser
-password:
-    pass: ddd
+username: adminuser
+password: ddd
