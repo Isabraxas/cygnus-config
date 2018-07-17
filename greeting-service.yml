@@ -2,7 +2,7 @@
 server.port= ${PORT:3335}   # HTTP port
 
 # Discovery Server Access
-eureka.client.serviceUrl.defaultZone= http://localhost:1111/eureka/
+eureka.client.serviceUrl.defaultZone= ${EUREKA_ENDPOINT}
       
 # database config
 username= adminuser
