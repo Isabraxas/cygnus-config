@@ -1,0 +1,19 @@
+zuul:
+  #ignoredServices: '*'
+  routes:
+    greetings:
+      path: /greeting/**
+      serviceId: GREETING-SERVICE
+      stripPrefix: false
+    users:
+      path: /api/v1/users**
+      serviceId: USERSERVICE
+      stripPrefix: false
+      #url: http://localhost:2222/greeting/
+
+# Discovery Server Access
+eureka:
+  client:
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
