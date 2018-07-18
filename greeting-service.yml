@@ -30,4 +30,4 @@ logging:
     com.netflix.discovery: 'OFF'
     org.springframework.cloud: 'INFO'
     org.springframework.web: 'INFO'
-com.atsistemas: 'DEBUG'
+
