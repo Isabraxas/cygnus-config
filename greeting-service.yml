@@ -1,0 +1,33 @@
+# HTTP Server
+#server.port= ${PORT:3333}
+#server.port= 0
+
+# Discovery Server Access
+#eureka.client.serviceUrl.defaultZone= http://localhost:1111/eureka
+#eureka.client.serviceUrl.defaultZone= ${EUREKA_ENDPOINT}
+      
+# database config
+#username= adminuser
+#password= {cipher}76d91b354bf70d0b449828f68b93ec2c5b5d09e74cdb67e6aacfa6e1d38658e5
+#password= {cipher}b5ef037d0b1523b375e79784ff5a373830fe10077e4473714909f9636545ed771161f26ba77e5eaa2432c7c25793f4b0
+
+# HTTP Server
+server:
+  port: ${PORT:3333}   
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_ENDPOINT}
+      
+username: adminuser
+password: {cipher}76d91b354bf70d0b449828f68b93ec2c5b5d09e74cdb67e6aacfa6e1d38658e5
+
+logging:
+  file: logs/${spring.application.name}.log
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'INFO'
+    org.springframework.web: 'INFO'
+com.atsistemas: 'DEBUG'
