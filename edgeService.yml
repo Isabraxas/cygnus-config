@@ -17,7 +17,7 @@ zuul:
   routes:
     greetings:
       path: /greeting/**
-      serviceId: GREETING-SERVICE
+      serviceId: GREETINGSERVICE
       stripPrefix: false
     users:
       path: /api/v1/users/**
