@@ -20,7 +20,7 @@ zuul:
       serviceId: GREETING-SERVICE
       stripPrefix: false
     users:
-      path: /api/v1/users**
+      path: /api/v1/users/**
       serviceId: USERSERVICE
       stripPrefix: false
       #url: http://localhost:2222/greeting/
