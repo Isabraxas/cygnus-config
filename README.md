@@ -1,2 +1,2 @@
-# cygnus-config
-config files for cygnus services
+# config server
+config files for POC
