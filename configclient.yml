@@ -2,4 +2,4 @@ client:
   pseudo:
     property: Property value loaded from File System
 
-message: Mensaje obtenido de Archivo del sistema
+message: Mensaje obtenido de Git
